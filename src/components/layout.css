@@ -25,3 +25,27 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--mainGrey);
   font-size: 2rem;
 }
+
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-beige {
+  color: var(--mainBeige);
+  border-color: var(--mainBeige);
+}
+
+.btn-beige:hover {
+  background: var(--mainBeige);
+  color: var(--mainGrey) !important;
+}
+
+.footer {
+  background: var(--mainBeige);
+}
