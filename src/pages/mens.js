@@ -12,7 +12,7 @@ const Mens = ({data}) => (
     <BackgroundSection
     img={data.img.childImageSharp.fluid}
     title="mens"
-    styleClass="about-bg"
+    styleClass="men-bg"
     />
     <Info />
   </Layout>
@@ -20,7 +20,7 @@ const Mens = ({data}) => (
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq: "background.jpg"}) {
+  img: file(relativePath: {eq: "men-bg.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG
