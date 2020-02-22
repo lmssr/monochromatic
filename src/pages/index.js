@@ -27,6 +27,21 @@ export const query = graphql`
       }
     }
   }
+    menu: allContentfulMenClothes {
+    edges {
+      node {
+        id
+        type
+        color
+        size
+        image {
+          fixed(width: 50, height: 50) {
+            ...GatsbyContentfulFixed_tracedSVG
+          }
+        }
+      }
+    }
+  }
 }
 `;
 
