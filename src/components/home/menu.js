@@ -2,15 +2,6 @@ import React, { Component } from 'react';
 import Title from '../globals/title';
 import Img from 'gatsby-image';
 
-const getCategories = items => {
-  let tempItems = items.map(items => {
-    return items.node.category;
-  });
-    let tempCategories = new Set(tempItems);
-    let categories = Array.from(tempCategories);
-    categories = ['all', ...categories]
-    return categories;
-};
 
 export default class menu extends Component {
   constructor(props) {
