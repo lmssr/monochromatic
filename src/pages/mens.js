@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/globals/BackgroundSection"
 import Info from "../components/home/info";
+import Products from "../components/home/products";
 
 const Mens = ({data}) => (
   <Layout>
@@ -14,7 +15,7 @@ const Mens = ({data}) => (
     title="mens"
     styleClass="men-bg"
     />
-    <Info />
+    <Products />
   </Layout>
 )
 
