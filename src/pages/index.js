@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import BackgroundSection from "../components/globals/BackgroundSection";
 import Info from "../components/home/info";
+import Contact from "../components/home/contact";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
     title="Monochromatic"
     />
     <Info />
+    <Contact />
   </Layout>
 )
 
