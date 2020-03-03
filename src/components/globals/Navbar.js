@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../images/logo.svg';
+import logo from '../../images/cloth.png';
 import { FaCartArrowDown } from 'react-icons/fa';
 
 
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
    return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
       <Link to="/" className="navbar-brand">
-        <img src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
       </Link>
       <button
         className="navbar-toggler"
